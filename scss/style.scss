@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/wp2817045\ копія.jpeg) ;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.img__button__1__1{
+    width: 50px;
+}
+.img__button__1__1:hover{
+    opacity: 0.8;
+    background-color: #FF4500;
+    padding: 5px;
+    border-radius: 20px;
+}
+.main__left{
+    width: 1300px;
+    height: 760px;
+    
+    background-color: #212121;
+    padding: 0 100px;
+    border-radius: 15px;
+    margin-left: 150px;
+}
+.nav__list__1__img{
+    width: 40px;
+}
+.main__info__map__1{
+    width: 640px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.main__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.main__title__1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.main__title__1__1__orange{
+    color: #FF4500;
+}
+.main__title__2__1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    opacity: 0.8;
+}
+.main__info__contact{
+    width: 440px;
+    height: 485px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-image: url(../images/360_F_188318503_LKh9XSbKCaUAw0Zf7kMlMytBnwwU1z9C.jpeg);
+}
+.main__info__contact__title__1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    
+}
+.main__info__contact__title__1__1{
+    color: #FF4500;
+}
+.main__info__contact__title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main__info__contact__info__1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding-top: 20px;
+}
+// .nav__list__2{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     flex-direction: column;
+// }
+.main__info__contact__info{
+    width: 400px;
+    padding-left: 50px;
+}
+.nav__list__3{
+   width: 156px;
+}
+
+.nav__list__5{
+    padding-left: 0px;
+    
+}
+.nav__list__2__1{
+    padding-left: 25px;
+}
+.nav__list__2__title{
+    font-size: 20px;
+}
+.nav__list__2__under{
+    opacity: 0.8;
+}
+.nav__list__disk{
+    padding-right: 25px;
+}
+
+.img__button{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 330px;
+    width: 140px;
+    background-color: #212121;
+    padding: 20px 40px;
+    margin-top: 100px;
+}
+.main__right{
+    background-color: #212121;
+    height: 530px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+@media(max-width:400px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(../images/wp2817045\ копія.jpeg) ;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .img__button__1__1{
+        width: 50px;
+    }
+    .img__button__1__1:hover{
+        opacity: 0.8;
+        background-color: #FF4500;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .main__left{
+        width: 360px;
+        height: 900px;
+        
+        background-color: #212121;
+        padding: 0 100px;
+        border-radius: 15px;
+        
+    }
+    .nav__list__1__img{
+        width: 40px;
+    }
+    .main__info__map__1{
+        width: 300px;
+        border: 10px solid black;
+        border-radius: 10px;
+    }
+    .main__info{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__title{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .main__title__1{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #fff;
+        padding-bottom: 15px;
+    }
+    .main__title__1__1__orange{
+        color: #FF4500;
+    }
+    .main__title__2__1{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #fff;
+        opacity: 0.8;
+    }
+    .main__info__contact{
+        width: 300px;
+        height: 485px;
+        border: 10px solid black;
+        border-radius: 10px;
+        background-image: url(../images/360_F_188318503_LKh9XSbKCaUAw0Zf7kMlMytBnwwU1z9C.jpeg);
+    }
+    .main__info__contact__title__1{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #212121;
+        
+    }
+    .main__info__contact__title__1__1{
+        color: #FF4500;
+    }
+    .main__info__contact__title{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main__info__contact__info__1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 150px;
+        padding-top: 20px;
+    }
+    // .nav__list__2{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     flex-direction: column;
+    // }
+    .main__info__contact__info{
+        width: 400px;
+        padding-left: 30px;
+    }
+    .nav__list__3{
+       width: 156px;
+    }
+    
+    .nav__list__5{
+        padding-left: 0px;
+        
+    }
+    .nav__list__2__1{
+        padding-left: 25px;
+    }
+    .nav__list__2__title{
+        font-size: 20px;
+    }
+    .nav__list__2__under{
+        opacity: 0.8;
+    }
+    .nav__list__disk{
+        padding-right: 25px;
+    }
+    
+    .img__button{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 80px;
+        width: 360px;
+        background-color: #212121;
+        padding: 20px 40px;
+        margin-top: 40px;
+        border-radius: 15px;
+    }
+    .main__right{
+        background-color: #21212100;
+        height: 20px;
+        width: 120px;
+        border-radius: 15px;
+        margin-right: 85px;
+    }
+}
